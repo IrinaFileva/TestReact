@@ -1,1 +1,5 @@
-export { getStore, removeFromStore, addToStore } from "./localStorage/localStorage";
+export {
+  getStore,
+  removeFromStore,
+  addToStore,
+} from './localStorage/localStorage';
