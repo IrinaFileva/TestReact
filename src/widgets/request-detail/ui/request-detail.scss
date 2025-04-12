@@ -1,0 +1,39 @@
+.detail-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  padding: 2% 1%;
+  margin: 10% auto;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    max-width: 250px;
+  }
+
+  a {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btns-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.detail-title {
+  font-size: 26px;
+}
