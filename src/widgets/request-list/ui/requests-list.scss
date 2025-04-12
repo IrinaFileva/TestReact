@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  padding: 1%;
+  margin: 10% auto;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+  ul {
+    width: 100%;
+    list-style-type:  none;
+
+    li {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #262626;
+      margin-top: 10px;
+      padding: 1% 2%;
+      cursor: pointer;
+
+      .date {
+        font-size: 15px;
+      }
+    }
+  }
+
+}
